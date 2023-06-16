@@ -13,6 +13,7 @@ const Form = () => {
 
     return (
         <form onSubmit={handleSubmit} >
+            <div>Sattwik Contact Form</div>
             <label htmlFor="name">Sattwik Name</label>
             <input type="text" id="name" className="input" />
             <ReCAPTCHA
